@@ -51,7 +51,7 @@ a {
     color: #aab600cc;
     font-weight: bold;
 }
-
+x
 q {
     font-style: italic;
 }
@@ -130,12 +130,12 @@ footer {
 
 .Navbar a:hover {
     background-color: #e6f0ff;
-    color: #0a3d62;
+    color: #4c8d02;
     font-weight: bold;
 }
 
 .Navbar a.active {
-    background-color: #0077b6;
+    background-color: #4c8d02;
 }
 
 /***** VIDEO STYLING *****/
