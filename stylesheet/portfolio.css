@@ -10,7 +10,7 @@ h1 {
     font-family: "Segoe UI", Tahoma, sans-serif;
     text-align: center;
     margin-top: 3%;
-    color: #0a3d62;
+    color: #624a0a;
 }
 
 h1:hover {
@@ -48,7 +48,7 @@ p:hover {
 }
 
 a {
-    color: #0a3d62;
+    color: #5e0a62;
     font-weight: bold;
 }
 x
