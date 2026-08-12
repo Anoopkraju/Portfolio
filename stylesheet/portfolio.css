@@ -48,7 +48,7 @@ p:hover {
 }
 
 a {
-    color: #aab600cc;
+    color: #0a3d62;
     font-weight: bold;
 }
 x
@@ -88,7 +88,7 @@ footer {
 
 .Navbar {
     overflow: hidden;
-    background-color: #0a3d62;
+    background-color: #8fead0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -130,12 +130,12 @@ footer {
 
 .Navbar a:hover {
     background-color: #e6f0ff;
-    color: #4c8d02;
+    color: #0a3d62;
     font-weight: bold;
 }
 
 .Navbar a.active {
-    background-color: #4c8d02;
+    background-color: #0a3d62;
 }
 
 /***** VIDEO STYLING *****/
