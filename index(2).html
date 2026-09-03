@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Anoop Raju, an Electronics & Instrumentation Engineer specializing in calibration, automation, quality systems and precision measurement.">
+    <title>Anoop Raju | Calibration & Instrumentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="Navbar" aria-label="Primary navigation">
+            <a class="brand" href="#Home" aria-label="Anoop Raju home">AR<span>.</span></a>
+            <div class="nav-links">
+                <a href="#About">About</a>
+                <a href="#GitHub">GitHub</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="Home">
+            <video autoplay muted loop playsinline id="Typing_Video" aria-hidden="true">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow"><span class="dot-grid" aria-hidden="true">•••</span> CALIBRATION / AUTOMATION / QUALITY</p>
+                <h1>Anoop<br>Raju<span class="accent-dot">.</span></h1>
+                <p class="hero-lead">Electronics &amp; Instrumentation Engineer focused on precision measurement, calibration automation and quality systems.</p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#About">Explore portfolio</a>
+                    <a class="button button-secondary" href="https://github.com/Anoopkraju" target="_blank" rel="noopener noreferrer">View GitHub ↗</a>
+                </div>
+
+                <div class="hero-quote">
+                    <span>“</span>
+                    <p>Precision is not just a requirement, it is a responsibility.</p>
+                </div>
+            </div>
+
+            <a class="scroll-cue" href="#About" aria-label="Scroll to About section">SCROLL ↓</a>
+        </section>
+
+        <section class="section" id="About">
+            <div class="section-number">01</div>
+            <div class="section-heading">
+                <p class="eyebrow">PROFILE</p>
+                <h2>About me</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="portrait-wrap">
+                    <img class="portrait" src="images/anoop.jpg" alt="Portrait of Anoop Raju">
+                    <div class="image-label">PRECISION / MEASUREMENT</div>
+                </div>
+
+                <div class="about-copy">
+                    <p class="large-copy">I am an Electronics &amp; Instrumentation Engineer with experience in calibration laboratories and industrial environments.</p>
+                    <p>My expertise includes thermal, pressure, electrical, and process instrumentation calibration, along with uncertainty analysis and ISO 17025 compliance.</p>
+                    <p>I am passionate about precision measurement, quality systems, and continuous improvement.</p>
+
+                    <div class="skill-strip" aria-label="Areas of specialization">
+                        <span>Calibration</span>
+                        <span>Instrumentation</span>
+                        <span>Automation</span>
+                        <span>ISO 17025</span>
+                        <span>Uncertainty</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark-section" id="GitHub">
+            <div class="section-number">02</div>
+            <div class="github-grid">
+                <div>
+                    <p class="eyebrow light">CODE / PROJECTS</p>
+                    <h2>Built with curiosity.<br>Improved with precision.</h2>
+                    <p class="github-copy">You can view my coding projects and portfolio work on my GitHub profile.</p>
+                    <a class="button button-light" href="https://github.com/Anoopkraju" target="_blank" rel="noopener noreferrer">github.com/Anoopkraju ↗</a>
+                </div>
+
+                <a class="github-card" href="https://github.com/Anoopkraju" target="_blank" rel="noopener noreferrer" aria-label="Visit Anoop Raju's GitHub profile">
+                    <img src="images/GitHub.png" alt="GitHub logo">
+                    <div>
+                        <span>GITHUB PROFILE</span>
+                        <strong>Anoopkraju</strong>
+                    </div>
+                    <span class="card-arrow">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="Contact">
+            <div class="section-number">03</div>
+            <div class="section-heading">
+                <p class="eyebrow">CONTACT</p>
+                <h2>Let’s connect.</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-intro">
+                    <p class="large-copy">Have a question, project idea, or professional opportunity?</p>
+                    <p>Send a message using the form and I’ll be happy to connect.</p>
+                    <a class="text-link" href="https://github.com/Anoopkraju" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                </div>
+
+                <form action="" method="POST" class="contact-form">
+                    <div class="form-field">
+                        <label for="Name">Name</label>
+                        <input type="text" id="Name" name="Name" placeholder="Your name" autocomplete="name">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" name="Email" placeholder="you@example.com" autocomplete="email">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="Message">Message</label>
+                        <textarea id="Message" name="Message" rows="5" placeholder="Write your message"></textarea>
+                    </div>
+
+                    <button type="submit">SEND MESSAGE <span>↗</span></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-mark">AR<span>.</span></div>
+        <p>© Anoop Raju Portfolio</p>
+        <a href="#Home">Back to top ↑</a>
+    </footer>
+</body>
+</html>
